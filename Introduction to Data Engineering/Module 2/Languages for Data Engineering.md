@@ -23,7 +23,7 @@ Structured Query Language, is a querying language designed for accessing and man
 - Has a simple syntax that is similar to English language.
 - Its syntax allows developers to write programs with fewer lines of code using basic keywords
 - can retrieve large amounts of data quickly and efficiently.
-- Runs on a <span style="color:blue">interpreter system.</span> [^1]
+- Runs on a <span style="color:lightblue">interpreter system.</span> [^1]
 
 ---
 ## 2. Programming Languages:

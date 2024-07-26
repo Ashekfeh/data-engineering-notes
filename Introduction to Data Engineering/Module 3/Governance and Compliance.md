@@ -47,6 +47,7 @@ Governance regulations require enterprises to **know their purpose** and **be cl
 	- Define policies and processes you will follow for the retention and deletion of personal data after a designated time.
 	- Define how you will ensure deleted data is removed from all locations, including third-party systems.
 
+#NOTE:In the data lifecycle, it is important to <ins>maintain an auditable personal data trail at each stage</ins>.
 # Technology as an Enabler
 ---
 Today's tools and technologies provide several controls for ensuring organizations comply to governance regulations.
