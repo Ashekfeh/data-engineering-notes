@@ -1,3 +1,3 @@
-# data-engineering-notes
+# Data Engineering Notes
 ---
-These notes were based on [IBM Introduction to Data Engineering | Coursera](https://www.coursera.org/programs/syrian-youth-assembly-learning-program-blb40/learn/introduction-to-data-engineering?specialization=ibm-data-engineer) and made with Obsidian.
+These notes were based on [IBM Data Engineering Professional Certificate | Coursera](https://www.coursera.org/professional-certificates/ibm-data-engineer?) and made with Obsidian.
