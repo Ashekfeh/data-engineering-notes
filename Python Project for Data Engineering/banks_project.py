@@ -64,7 +64,7 @@ def load_to_db(sql_connection: sqlite3.Connection, data: pd.DataFrame, database:
 
     data.to_sql(table, sql_connection, if_exists='replace', index=False)
 
-def run_query(query_statement, sql_connection: sqlite3.Connection) -> None:
+def run_query(query_statement: str, sql_connection: sqlite3.Connection) -> None:
     '''
     run queries on sqlite database
     '''
