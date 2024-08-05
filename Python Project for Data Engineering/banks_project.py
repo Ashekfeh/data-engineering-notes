@@ -2,7 +2,6 @@ import pandas as pd
 from datetime import datetime
 import sqlite3
 import requests
-import glob
 from bs4 import BeautifulSoup
 
 def log_progress(message: str) -> None:
