@@ -61,7 +61,7 @@ def extract():
 	return extracted_data
 ```
 
-#NOTE: If we did not set the parameter `ignore_index` to true, then the ==index of the data frame `extracted_data` would be the same as the row Number of the original file.== If we set the `ignore index` to true, then the ==order of each row would be the same as the order the row was appended to the data frame.==.
+> [!note] #NOTE: If we did not set the parameter `ignore_index` to true, then the ==index of the data frame `extracted_data` would be the same as the row Number of the original file.== If we set the `ignore index` to true, then the ==order of each row would be the same as the order the row was appended to the data frame.==.
 
 # Transform
 ---

@@ -35,15 +35,13 @@ Network security is <ins>vital</ins> to keep interconnected systems and data saf
 ---
 Application Security is critical for keeping customer data private and ensuring applications are fast and responsive.
 
-#NOTE: security needs to be built into the foundation of an application in order to prevent other applications and services from introducing vulnerabilities
+> [!note] #NOTE: security needs to be built into the foundation of an application in order to prevent other applications and services from introducing vulnerabilities
 
 you can make your application safe by following security engineering practices such as:
 - **Threat Modeling** to identify relative weaknesses and attack patterns relate to the application
 - **Secure Design** that mitigates risks
 - **Secure Coding guides and practices** that prevent vulnerabilities
 - **Security Testing** to fix problems before the application is deployed and to validate that it is free of known issues.
-
-
 # Data Security
 ---
 Data is either at rest in storage, or in transit, between systems, applications, services and workloads

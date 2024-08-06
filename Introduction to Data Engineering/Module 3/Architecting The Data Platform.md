@@ -29,7 +29,7 @@ The Storage and Integration Layer in data platforms needs to:
 - Transform and merge extracted data, either logically or physically.
 - Make data available for processing in both streaming and batch modes
 
-#NOTE The storage layer needs to be **reliable**, **scalable**, **high-performing** & **cost-efficient**.
+> [!note] #NOTE The storage layer needs to be **reliable**, **scalable**, **high-performing** & **cost-efficient**.
 
 ## Tools For Data Storage
 ### Relational Databases:
@@ -91,11 +91,11 @@ There are a host of tools available for performing these transformations on data
 - Python (Libraries such as Pandas)
 - R ( #TODO ADD LIBRARIES HERE )
 
-#NOTE: **Storage** and **Processing** can ==occur in the same layer==.
+> [!note] #NOTE: **Storage** and **Processing** can ==occur in the same layer==.
 
-#NOTE: Data can first be stored in [[Big Data Processing Tools#Apache Hadoop |Hadoop HDFS]] and then processed in a data processing engine like [[Big Data Processing Tools#Apache Spark|Apache Spark]].
+> [!note] #NOTE: Data can first be stored in [[Big Data Processing Tools#Apache Hadoop |Hadoop HDFS]] and then processed in a data processing engine like [[Big Data Processing Tools#Apache Spark|Apache Spark]].
 
-#NOTE: Data Processing layer can also precede the Data Storage Layer, where transformations are applied before data is loaded, or stored in the database.
+>[!note] #NOTE: Data Processing layer can also precede the Data Storage Layer, where transformations are applied before data is loaded, or stored in the database.
 
 
 # Analysis and user Interface Layer

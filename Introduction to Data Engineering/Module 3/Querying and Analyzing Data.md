@@ -66,8 +66,9 @@ Filter patterns to <ins>perform partial matches of data values</ins>
 SELECT * FROM CarSaleDetails WHERE Pin LIKE "871%"
 ```
 
-#NOTE: `EQUAL TO` Operator returns records in which a data value matches a certain value
-#NOTE: `LIKE` Operator helps you to specify a pattern to return records that match a data value partially.
+> [!note] #NOTE: `EQUAL TO` Operator returns records in which a data value matches a certain value
+
+> [!note] #NOTE: `LIKE` Operator helps you to specify a pattern to return records that match a data value partially.
 
 # Grouping Data
 ---

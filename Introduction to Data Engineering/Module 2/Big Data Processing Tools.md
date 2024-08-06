@@ -6,7 +6,7 @@ Distributed storage and processing of large datasets across clusters of computer
 **Node**: A single computer.
 Cluster: A collection of nodes.
 
-#NOTE Hadoop provides a **reliable**, **scalable**, and cost-effective solution for storing data with no format requirements.
+>[!note] #NOTE Hadoop provides a **reliable**, **scalable**, and cost-effective solution for storing data with no format requirements.
 
 ## Benefits include:
 - **Better real-time driven decisions**: Incorporate emerging data formants not traditionally used in data warehouses
@@ -34,9 +34,9 @@ An open-source data warehouse for reading, writing and managing large data set f
 
 **Hive is suited for** -> Data warehousing tasks such as <ins>ETL, reporting and data analysis</ins>. Hive enables easy access to data via SQL
 
-#NOTE: ==Hadoop== is intended for long sequential scans, because <ins>Hive is based on Hadoop</ins>, queries have high latency - Which means **Hive** is <ins><em>less appropriate for applications that need very fast response time.</em></ins>
+> [!note] #NOTE: ==Hadoop== is intended for long sequential scans, because <ins>Hive is based on Hadoop</ins>, queries have high latency - Which means **Hive** is <ins><em>less appropriate for applications that need very fast response time.</em></ins>
 
-#NOTE : Hive is read-based which is <ins>NOT suitable</ins> for *transaction processing* that involves a high percentage of write operations.
+> [!note] #NOTE : Hive is read-based which is <ins>NOT suitable</ins> for *transaction processing* that involves a high percentage of write operations.
 # Apache Spark
 ---
 A general-purpose data processing engine designed to extract and process large volumes of data for a wide range of applications. **which includes**:

@@ -23,7 +23,7 @@ this task includes action that change the form and schema of your data. Data wil
 - Reducing redundancy.
 - Reducing inconsistency.
 
-#NOTE: Data coming from [[Factors for Selecting and Designing Data Stores#Intended use of data|Transactional Systems]] is <ins>highly normalized</ins>
+> [!note] #NOTE: Data coming from [[Factors for Selecting and Designing Data Stores#Intended use of data|Transactional Systems]] is <ins>highly normalized</ins>
 
 **Denormalizing** data includes:
 - Denormalizing data includes combining data from multiple tables into a single table for faster querying of data for reports and analysis.
@@ -38,9 +38,9 @@ Cleaning tasks are actions that fix irregularities in data in order to produce a
 - Profiling data to inspect source data.
 - Visualizing data using statistical methods
 
-#NOTE: Data profiling helps you to inspect the **source data** to understand the *structure*, *content*, and *interrelationships* in your data. it uncovers ==anomalies== and ==data quality issues== (i.e. missing values, duplicate data, inconsistent data formats, and outliers.)
+> [!note] #NOTE: Data profiling helps you to inspect the **source data** to understand the *structure*, *content*, and *interrelationships* in your data. it uncovers ==anomalies== and ==data quality issues== (i.e. missing values, duplicate data, inconsistent data formats, and outliers.)
 
-#NOTE: Visualizing the data helps you spot outliers[^1]
+> [!note] #NOTE: Visualizing the data helps you spot outliers[^1]
 
 ### Cleaning
 The technique you apply for cleaning your dataset will depend on your <ins>use case</ins> and the <ins>type of issues you encounter</ins>.

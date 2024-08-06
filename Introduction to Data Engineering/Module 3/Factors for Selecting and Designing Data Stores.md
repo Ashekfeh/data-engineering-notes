@@ -32,14 +32,15 @@ How you intend to use the data you are collecting:
 
 **Schema design, indexing, and partitioning**: strategies have abig role to play in performance of systems based on how data is getting used.
 
-#NOTE: The intended use of data also derives **scalability** as a design consideration.
+> [!note] #NOTE: The intended use of data also derives **scalability** as a design consideration.
 
-#NOTE: **Normalization** is another important consideration at the design stage.
+> [!note] #NOTE: **Normalization** is another important consideration at the design stage.
 		it allows:
 		- Optimal use of storage space.
 		- Makes database maintenance easier.
 		- Provides faster access to data.
-#NOTE: <span style="color:red"> IMPORTANT </span> Normalization is important for systems that handle ==Transactional Data==. But for systems designed for handling ==analytical queries==, normalization can lead to <ins>performance issues.</ins>
+
+> [!note] #NOTE: <span style="color:red"> IMPORTANT </span> Normalization is important for systems that handle ==Transactional Data==. But for systems designed for handling ==analytical queries==, normalization can lead to <ins>performance issues.</ins>
 ## Storage considerations
 ---
 Design considerations from the perspective of storage:
@@ -49,15 +50,15 @@ Design considerations from the perspective of storage:
 - **Recoverability of Data** - Storage solution should ensure you can recover your data in the event of failures and natural disasters.
 ## Privacy, Security and Governance needs
 ---
-#NOTE: A secure data strategy is a <ins>layered approached</ins>, it includes:
+> [!note] #NOTE: A secure data strategy is a <ins>layered approached</ins>, it includes:
 		- Access Control
 		- Multizone encryption
 		- Data management
 		- Monitoring Systems
 	
-#NOTE: Regulations such as [GDPR](https://gdpr-info.eu/), [CCPA](https://oag.ca.gov/privacy/ccpa), and [HIPAA](https://www.hhs.gov/hipaa/index.html) restrict the ownership, use, and management of personal and sensitive data.
+> [!note] #NOTE: Regulations such as [GDPR](https://gdpr-info.eu/), [CCPA](https://oag.ca.gov/privacy/ccpa), and [HIPAA](https://www.hhs.gov/hipaa/index.html) restrict the ownership, use, and management of personal and sensitive data.
 
-#NOTE: Dat needs to be made available through controlled data flow and data management by using multiple data protection techniques.
+> [!note] #NOTE: Dat needs to be made available through controlled data flow and data management by using multiple data protection techniques.
 
 ---
 [^1]: Rate at which information can be read from and written to the storage.

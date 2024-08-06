@@ -9,9 +9,9 @@ Data Governance is a collection of principles, practices, and processes to maint
 - Can be used to identify an individual
 - Can be used to cause harm to the individual
 
-#NOTE: The **General Data Protection Regulation (GDPR)** is a regulation that was implemented by the European Union (EU) in 2018 to protect the personal data and privacy of EU citizens. for transactions that occur in EU states
+> [!note] #NOTE: The **General Data Protection Regulation (GDPR)** is a regulation that was implemented by the European Union (EU) in 2018 to protect the personal data and privacy of EU citizens. for transactions that occur in EU states
 
-#NOTE: In the united states, different states has made their own regualtions.
+> [!note] #NOTE: In the united states, different states has made their own regualtions.
 
 **Industry-specific regulations**:
 - Health Insurance Portability and Accountability Act (HIPAA) for Healthcare.
@@ -47,7 +47,7 @@ Governance regulations require enterprises to **know their purpose** and **be cl
 	- Define policies and processes you will follow for the retention and deletion of personal data after a designated time.
 	- Define how you will ensure deleted data is removed from all locations, including third-party systems.
 
-#NOTE:In the data lifecycle, it is important to <ins>maintain an auditable personal data trail at each stage</ins>.
+> [!note] #NOTE:In the data lifecycle, it is important to <ins>maintain an auditable personal data trail at each stage</ins>.
 # Technology as an Enabler
 ---
 Today's tools and technologies provide several controls for ensuring organizations comply to governance regulations.

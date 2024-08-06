@@ -16,7 +16,7 @@ Data marts are sub-sections of data warehouses that are ==built specifically for
 - Independent data marts are created from sources other than enterprise data warehouse such as internal operational system or external data.
 - Hybrid data marts combine inputs from data warehouses, operational systems and external systems.
 
-#NOTE: The purpose of a data mart is t o provide users with relevant data when they need it, accelerate business processes, enable data-driven decision-making, improve end-user response time, and provide secure access and control.
+> [!note] #NOTE: The purpose of a data mart is t o provide users with relevant data when they need it, accelerate business processes, enable data-driven decision-making, improve end-user response time, and provide secure access and control.
 
 ## Data Lakes
 ---

@@ -9,7 +9,7 @@ It offers simple commands to specify:
 - Dictating the sequence in which the query results are displayed.
 - Limiting the number of results that can be returned by the query.
 
-#NOTE: Non-relational databases can be queried using **SQL** or **SQL-like** query tools. Some non-relational databases come with their own querying tools such as **CQL** for **Cassandra** and **GraphQL** for **Neo4J**.
+> [!note] #NOTE: Non-relational databases can be queried using **SQL** or **SQL-like** query tools. Some non-relational databases come with their own querying tools such as **CQL** for **Cassandra** and **GraphQL** for **Neo4J**.
 
 ## Application Programming Interfaces (APIs)
 ---
@@ -21,13 +21,13 @@ Popularly used for extracting data from a variety of data sources.
 ---
 **Web Scraping/ Screen Scraping/ Web Harvesting** is used for downloading specific data from web pages based on defined parameters. It is Used for extracting data such as text, contact information, images, videos, podcasts & product items from a web property.
 
-#NOTE: **RSS feeds** are used for capturing updated data from online forums and news sites where data is refreshed on an ongoing basis.
+> [!note] #NOTE: **RSS feeds** are used for capturing updated data from online forums and news sites where data is refreshed on an ongoing basis.
 
 ## Sensor Data
 ---
 **Data Streams** are a popular source of aggregating constant streams of data flowing from sources such as *Instruments, IoT devices, Applications & GPS data from cars*.
 
-#NOTE: Data streams and feed are also used for extracting data from social media sites and interactive platforms.
+> [!note] #NOTE: Data streams and feed are also used for extracting data from social media sites and interactive platforms.
 
 ## Data Exchanges
 ---
@@ -63,11 +63,11 @@ Data that has been identified and gathered from the various data sources now nee
 - Can be stored in NoSQL clusters.
 - XML and JSON are commonly used for storing and exchanging semi-structured data.
 
-#NOTE:JSON is the preferred data type for web services
+> [!note] #NOTE:JSON is the preferred data type for web services
 
 ### Unstructured Data[^3]
 - Can be stored in NoSQL databases and [[Data Warehouses, Data Marts & Data Lakes#Data Lakes|data lakes]]
-#NOTE: [[ETL, ELT & Data Pipelines#Extract, Transform & Load Process (ETL)|ETL]] tools and [[ETL, ELT & Data Pipelines#Data Pipelines|pipelines]] provide automated functions that <ins>facilitate the process of importing data</ins>.
+> [!note] #NOTE: [[ETL, ELT & Data Pipelines#Extract, Transform & Load Process (ETL)|ETL]] tools and [[ETL, ELT & Data Pipelines#Data Pipelines|pipelines]] provide automated functions that <ins>facilitate the process of importing data</ins>.
 
 ---
 [^1]: OLTP stands for Online Transaction Processing. It is a type of database system that is designed to support transaction-oriented applications.
